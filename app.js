@@ -18,7 +18,7 @@ const Comment = require('./models/comment');
 
 const seedDB = require('./seeds');
 
-mongoose.connect('mongodb://sjk:a12345@ds111059.mlab.com:11059/practice-run1', {
+mongoose.connect('mongodb://localhost/yelpCamp', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
